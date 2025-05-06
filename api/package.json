@@ -1,0 +1,8 @@
+{
+  "name": "chatapp-functions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "@azure/cosmos": "^4.0.0"
+  }
+}
