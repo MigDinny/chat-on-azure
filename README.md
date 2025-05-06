@@ -11,6 +11,7 @@ This is a simple real-time-style chat app deployed using **Azure Static Web Apps
 
 ### Make sure you have these env vars (can be in .env)
 COSMOS_ENDPOINT=<your-local-or-cloud-endpoint>
+
 COSMOS_KEY=<your-key>
 
 ### Install dependencies
