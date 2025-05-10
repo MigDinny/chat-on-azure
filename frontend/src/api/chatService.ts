@@ -9,7 +9,6 @@ export const chatService = {
     const resp = await client.get<Message[]>(ENDPOINTS.getMessages);
     return resp.data;
   },
-
   postMessage: async (payload: PostMessagePayload): Promise<Message> => {
     const resp = await client.post<Message>(ENDPOINTS.postMessage, payload);
     return resp.data;
