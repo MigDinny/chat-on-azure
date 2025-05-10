@@ -9,10 +9,15 @@ This is a simple real-time-style chat app deployed using **Azure Static Web Apps
 
 ## How to Run API
 
-### Make sure you have these env vars (can be in .env)
+### Make sure you have these env vars (in local.settings.json)
 COSMOS_ENDPOINT=<your-local-or-cloud-endpoint>
-
 COSMOS_KEY=<your-key>
+
+### Change directory
+cd api
+
+### Initialize Functions in JS 
+func init . --worker-runtime node
 
 ### Install dependencies
 npm install
